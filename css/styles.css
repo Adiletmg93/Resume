@@ -1,0 +1,296 @@
+body {
+  background: url(https://abrakadabra.fun/uploads/posts/2022-02/1645613891_10-abrakadabra-fun-p-fon-dlya-prezentatsii-nauka-i-tekhnika-11.jpg);
+  background-color: white;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 5% 0;
+}
+/* !============ NAVBAR START ============= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(192, 192, 192, 0.629);
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+.navbar__logo {
+  margin-left: 5%;
+  width: 10;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+.navbar__list {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  font-size: 20px;
+  width: 50%;
+  margin-right: 5%;
+}
+/* .button1 {
+  background-color: #ece5ff;
+  width: 168px;
+  height: 48px;
+  border-radius: 5px;
+  border: 0 solid;
+  color: #794cff;
+  font-size: 16px;
+  font-weight: medium;
+  cursor: pointer;
+} */
+
+.navbar__list_item > a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: rgba(27, 27, 27, 0.844);
+  font-weight: 600;
+}
+
+.navbar__list_item > a:hover {
+  color: black;
+  font-weight: 900;
+  transition: 0.2s;
+  font-size: 22px;
+}
+
+/* .navbar_right {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list__item1 {
+  margin-right: 20px;
+} */
+/* !============ NAVBAR END ============= */
+
+/* !============ HEADER START ============= */
+.header {
+  display: flex;
+  margin-top: 5%;
+}
+.header > img {
+  border-radius: 5%;
+  opacity: 0.8;
+}
+.header__block {
+  margin: 10%;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.header__block > h1 {
+  margin: 0;
+  font-size: 60px;
+  color: #303c44e2;
+  font-weight: 900;
+  /* text-shadow: 50 50 40px yellow; */
+}
+.header__block > h2 {
+  margin: 0;
+  font-size: 45px;
+  color: #232b31;
+}
+/* !============ HEADER END ============= */
+
+/* !============ CONTENT START ============= */
+.content {
+  display: flex;
+  margin-top: 10%;
+}
+.content__block {
+  margin: 5%;
+}
+.content__block > h2 {
+  margin: 0;
+  font-size: 45px;
+  color: #010d17d5;
+  margin-bottom: 5%;
+}
+.content__block > p {
+  margin: 0;
+  font-size: 25px;
+  color: #000000f0;
+  font-weight: 500;
+}
+.content__button {
+  margin-top: 5%;
+}
+.content__button > button {
+  background-color: rgba(255, 255, 255, 0.811);
+  border: 3px solid rgb(4, 0, 36);
+  width: 130px;
+  height: 40px;
+  font-size: 18px;
+  color: rgb(27, 0, 94);
+  border-radius: 10px;
+  font-weight: 600;
+}
+.content__button > button:hover {
+  width: 140px;
+  height: 45px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.442);
+  border: 4px solid rgba(0, 0, 0, 0.458);
+}
+.content > img {
+  border-radius: 5%;
+  opacity: 0.95;
+}
+/* !============ CONTENT END ============= */
+
+/* !============ SERVICES START ============= */
+.services {
+  margin-top: 5%;
+  text-align: center;
+}
+.services > h2 {
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+.services__block {
+  display: flex;
+  justify-content: space-around;
+}
+.services__block_items {
+  margin: 3%;
+  padding: 1%;
+  border: 2px solid rgba(255, 255, 255, 0.511);
+  background-color: rgba(128, 128, 128, 0.442);
+  width: 20%;
+  border-radius: 5%;
+}
+.services__block_items > p {
+  font-weight: 500;
+}
+.services__block_items:hover {
+  background-color: rgba(255, 255, 255, 0.796);
+  border: 2px solid rgba(145, 251, 255, 0.762);
+}
+/* !============ SERVICES END ============= */
+/* !============ PORTFOLIO START ============= */
+.portfolio {
+  text-align: center;
+  margin-top: 6%;
+}
+.portfolio > h2 {
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+/* !============ PORTFOLIO END ============= */
+
+/* !============ RESUME START ============= */
+.resume {
+  margin-top: 10%;
+}
+.resume > h2 {
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.84);
+  text-align: center;
+}
+.resume__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* LEFT */
+
+.resume__items_left {
+  background-color: rgba(128, 128, 128, 0.629);
+  width: 45%;
+  border: 2px solid rgba(255, 255, 255, 0.511);
+  padding: 1%;
+  border-radius: 10%;
+  margin-left: 25%;
+  padding: 5%;
+}
+.resume__block_left > h3 {
+  font-size: 35px;
+}
+.resume__items_left:hover {
+  background-color: rgba(255, 255, 255, 0.796);
+}
+.resume__block_left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+}
+
+/* RIGHT */
+
+.resume__items_right {
+  background-color: rgba(128, 128, 128, 0.633);
+  width: 45%;
+  border: 2px solid rgba(255, 255, 255, 0.511);
+  border-radius: 10%;
+  margin-left: 25%;
+  padding: 5%;
+}
+.resume__block_right > h3 {
+  font-size: 35px;
+}
+.resume__items_right:hover {
+  background-color: rgba(255, 255, 255, 0.796);
+}
+.resume__block_right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+}
+/* !============ RESUME END ============= */
+
+/* !============ CONTACT START ============= */
+.contact > h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.84);
+  margin-top: 5%;
+}
+.contact__block {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* !============ CONTACT END ============= */
+
+/* !============ FOOTER START ============= */
+.footer {
+  background-color: rgba(128, 128, 128, 0.633);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.84);
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  border-top: 2px solid grey;
+  padding-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer > div > a > img {
+  width: 35px;
+}
+
+.footer > div > a > img:hover {
+  width: 50px;
+}
+/* !============ FOOTER END ============= */
